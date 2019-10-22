@@ -1,6 +1,6 @@
 {
   "name": "ngx-octicons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -13,6 +13,10 @@
   "author": {
     "name": "Oliver Erxleben",
     "email": "oliver.erxleben@me.com"
+  },
+  "repository": {
+    "url": "https://github.com/olierxleben/ngx-octicons",
+    "type": "git"
   },
   "dependencies": {
     "@angular/animations": "~8.2.9",

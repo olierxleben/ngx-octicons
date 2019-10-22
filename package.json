@@ -1,6 +1,6 @@
 {
   "name": "ngx-octicons",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +9,11 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": true,
+  "private": false,
+  "author": {
+    "name": "Oliver Erxleben",
+    "email": "oliver.erxleben@me.com"
+  },
   "dependencies": {
     "@angular/animations": "~8.2.9",
     "@angular/common": "~8.2.9",

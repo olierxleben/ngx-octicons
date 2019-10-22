@@ -1,4 +1,4 @@
-# NgxOcticons
+# ngx-octicons
 
 This is a little library to provide an angularistic interface (a directive) in apps. The repository contains of an angular workspace which contains two applications: 
 
@@ -32,23 +32,15 @@ Afterwards just import the Module into your Application
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.11.
 
-## Code scaffolding
+and finally in your template you can do:
 
-Run `ng generate component component-name --project ngx-octicons` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngx-octicons`.
-> Note: Don't forget to add `--project ngx-octicons` or else it will be added to the default project in your `angular.json` file. 
+    <span octicon="heart"></span>
 
-## Build
+    <span octicon="gear" color="#552232" size="48"></span>
 
-Run `ng build ngx-octicons` to build the project. The build artifacts will be stored in the `dist/` directory.
+    <span octicon="shield-lock" color="4985FF" size="96"></span>
 
-## Publishing
+    <i octicon="heart" color="red"></i>
 
-After building your library with `ng build ngx-octicons`, go to the dist folder `cd dist/ngx-octicons` and run `npm publish`.
 
-## Running unit tests
-
-Run `ng test ngx-octicons` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+you can define the icon, the color and its size! 

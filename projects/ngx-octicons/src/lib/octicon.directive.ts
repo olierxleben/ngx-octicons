@@ -7,6 +7,8 @@ import * as octicons from '@primer/octicons';
 export class OcticonDirective implements OnInit {
 
   @Input('octicon') iconName: string;
+  @Input() color: string;
+  @Input() size: number;
 
   constructor(
     private elem: ElementRef,
@@ -16,6 +18,19 @@ export class OcticonDirective implements OnInit {
   ngOnInit() {
     const el: HTMLElement = this.elem.nativeElement;
     el.innerHTML = octicons[this.iconName].toSVG();
+
+    const icon: Node = el.firstChild;
+
+    if (this.color) {
+
+      this.renderer.setStyle(icon, 'fill', this.color);
+    }
+
+    if (this.size) {
+      this.renderer.setStyle(icon, 'width', `${this.size}px`);
+      this.renderer.setStyle(icon, 'height', '100%');
+    }
+
 
   }
 

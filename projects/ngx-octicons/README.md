@@ -1,5 +1,35 @@
 # NgxOcticons
 
+This is a little library to provide an angularistic interface (a directive) in apps. The repository contains of an angular workspace which contains two applications: 
+
+1. ngx-octicons, the library
+2. demo, the development app 
+
+## usage
+
+to install, simply
+
+    npm install --save ngx-octicons
+
+Afterwards just import the Module into your Application
+
+    import { NgxOcticonsModule } from 'ngx-octicons';
+
+
+    @NgModule({
+      declarations: [
+        AppComponent
+      ],
+      imports: [
+        BrowserModule,
+        NgxOcticonsModule
+      ],
+      providers: [],
+      bootstrap: [AppComponent]
+    })
+    export class AppModule { }
+
+
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.11.
 
 ## Code scaffolding

@@ -5,9 +5,48 @@ This is a little library to provide an angularistic interface (a directive) in a
 1. ngx-octicons, the library
 2. demo, the development app 
 
+## usage
+
+to install, simply
+
+    npm install --save ngx-octicons
+
+Afterwards just import the Module into your Application
+
+    import { NgxOcticonsModule } from 'ngx-octicons';
 
 
-## Mad with ng CLI
+    @NgModule({
+      declarations: [
+        AppComponent
+      ],
+      imports: [
+        BrowserModule,
+        NgxOcticonsModule
+      ],
+      providers: [],
+      bootstrap: [AppComponent]
+    })
+    export class AppModule { }
+
+
+## Development
+
+To build library 
+
+    npx ng build ngx-octicons --watch
+
+to run dev server
+
+    npx ng serve 
+
+## building using prod flag
+
+    npx ng build --prod 
+
+
+
+## Made with ng CLI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.7.
 

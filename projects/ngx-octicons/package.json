@@ -1,6 +1,14 @@
 {
   "name": "ngx-octicons",
-  "version": "0.0.2",
+  "version": "0.0.4",
+  "author": {
+    "name": "Oliver Erxleben",
+    "email": "oliver.erxleben@me.com"
+  },
+  "repository": {
+    "url": "https://github.com/olierxleben/ngx-octicons",
+    "type": "git"
+  },
   "peerDependencies": {
     "@angular/common": "^8.2.11",
     "@angular/core": "^8.2.11",

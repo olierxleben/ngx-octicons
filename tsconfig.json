@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-octicons": [
+        "dist/ngx-octicons"
+      ],
+      "ngx-octicons/*": [
+        "dist/ngx-octicons/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

@@ -1,13 +1,14 @@
 {
   "name": "ngx-octicons",
-  "version": "0.0.2",
+  "version": "0.1.1",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "pub": "npm publish ./dist/ngx-octicons"
   },
   "private": false,
   "author": {

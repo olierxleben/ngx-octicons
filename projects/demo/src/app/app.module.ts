@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { NgxOcticonsModule } from 'ngx-octicons';
+import { OcticonsModule } from 'ngx-octicons';
 
 import { AppComponent } from './app.component';
 
@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    NgxOcticonsModule
+    OcticonsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

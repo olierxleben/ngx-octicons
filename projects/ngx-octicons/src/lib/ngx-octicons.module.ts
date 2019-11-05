@@ -8,4 +8,4 @@ import { OcticonDirective } from './octicon.directive';
   ],
   exports: [OcticonDirective]
 })
-export class NgxOcticonsModule { }
+export class OcticonsModule { }

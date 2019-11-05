@@ -13,7 +13,7 @@ to install, simply
 
 Afterwards just import the Module into your Application
 
-    import { NgxOcticonsModule } from 'ngx-octicons';
+    import { OcticonsModule } from 'ngx-octicons';
 
 
     @NgModule({
@@ -22,7 +22,7 @@ Afterwards just import the Module into your Application
       ],
       imports: [
         BrowserModule,
-        NgxOcticonsModule
+        OcticonsModule
       ],
       providers: [],
       bootstrap: [AppComponent]

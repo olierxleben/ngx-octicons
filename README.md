@@ -40,11 +40,13 @@ to run dev server
 
     npx ng serve 
 
-## building using prod flag
+## building using prod flag + publishing
 
     npx ng build --prod 
 
+### publishing
 
+    npm run pub
 
 ## Made with ng CLI
 
